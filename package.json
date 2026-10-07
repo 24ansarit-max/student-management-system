@@ -1,0 +1,24 @@
+{
+  "name": "student-management-system",
+  "version": "1.0.0",
+  "description": "A standalone modern Academic Student Management System web application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/api-test.js"
+  },
+  "keywords": [
+    "student-management-system",
+    "academic",
+    "express",
+    "sqlite",
+    "dashboard"
+  ],
+  "author": "Academic Administration",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  }
+}
